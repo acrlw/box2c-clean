@@ -39,7 +39,7 @@ public:
 			m_bodies[i] = b2_nullBodyId;
 		}
 
-		m_baseCount = g_sampleDebug ? 10 : e_maxBaseCount;
+		m_baseCount = g_sampleDebug ? 1 : e_maxBaseCount;
 
 		CreateScene();
 	}

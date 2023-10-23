@@ -12,8 +12,8 @@ struct Settings
 	int m_windowWidth = 1920;
 	int m_windowHeight = 1080;
 	float m_hertz = 60.0f;
-	int m_velocityIterations = 8;
-	int m_positionIterations = 3;
+	int m_velocityIterations = 1;
+	int m_positionIterations = 1;
 	bool m_drawShapes = true;
 	bool m_drawJoints = true;
 	bool m_drawAABBs = false;
